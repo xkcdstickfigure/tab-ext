@@ -8,6 +8,15 @@
         "48": "logo.svg",
         "96": "logo.svg"
     },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Alles",
+            "search_url": "https://search.alles.cx/?q={searchTerms}",
+            "favicon_url": "https://search.alles.cx/_/static/logo-16.png",
+            "keyword": "alles",
+            "is_default": true
+        }
+    },
     "browser_action": {
         "default_icon": "logo.svg",
         "default_title": "Alles Tab"
