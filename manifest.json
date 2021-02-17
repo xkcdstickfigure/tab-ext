@@ -15,7 +15,11 @@
             "favicon_url": "https://search.alles.cx/_/static/logo-16.png",
             "keyword": "alles",
             "is_default": true
-        }
+        },
+        "homepage": "homepage/index.html"
+    },
+    "chrome_url_overrides": {
+        "newtab": "homepage/index.html"
     },
     "browser_action": {
         "default_icon": "logo.svg",
