@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Alles Tab",
+    "version": "0.1",
+    "description": "Adds Alles services to your browser",
+    "homepage_url": "https://tab.alles.cx",
+    "icons": {
+        "48": "logo.svg",
+        "96": "logo.svg"
+    },
+    "browser_action": {
+        "default_icon": "logo.svg",
+        "default_title": "Alles Tab"
+    }
+}
