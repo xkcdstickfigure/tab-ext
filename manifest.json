@@ -44,7 +44,14 @@
             ]
         }
     ],
+    "background": {
+        "scripts": [
+            "axios.js",
+            "navigation.js"
+        ]
+    },
     "permissions": [
-        "storage"
+        "storage",
+        "webNavigation"
     ]
 }
