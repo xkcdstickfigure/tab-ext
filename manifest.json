@@ -25,6 +25,17 @@
         "default_icon": "logo.svg",
         "default_title": "Alles Tab"
     },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://search.alles.cx/*",
+                "https://tab.alles.cx/*"
+            ],
+            "js": [
+                "alles-sites.js"
+            ]
+        }
+    ],
     "permissions": [
         "storage"
     ]
