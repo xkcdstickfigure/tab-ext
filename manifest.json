@@ -32,7 +32,7 @@
                 "https://tab.alles.cx/*"
             ],
             "js": [
-                "alles-sites.js"
+                "sites.js"
             ]
         },
         {
