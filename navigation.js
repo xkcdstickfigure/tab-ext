@@ -7,7 +7,7 @@ browser.webNavigation.onCompleted.addListener(async ({ url }) => {
         // TODO: Add option to enable/disable sharing websites with Alles
 
         axios.post(
-            `${api || `https://protium.alles.cx/c`}/url`,
+            `${api || `https://tab.alles.cx/c`}/url`,
             { domain: hostname },
             { headers: { Authorization: token } }
         ).catch(() => { });
