@@ -51,8 +51,7 @@
         ]
     },
     "permissions": [
-        "storage",
-        "webNavigation"
+        "storage"
     ],
     "browser_specific_settings": {
         "gecko": {
