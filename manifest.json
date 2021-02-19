@@ -53,5 +53,11 @@
     "permissions": [
         "storage",
         "webNavigation"
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "tab@alles.cx",
+            "update_url": "https://tab.alles.cx/updates.json"
+        }
+    }
 }
