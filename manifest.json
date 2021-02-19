@@ -28,8 +28,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://search.alles.cx/*",
-                "https://tab.alles.cx/*"
+                "https://*.alles.cx/*"
             ],
             "js": [
                 "sites.js"
