@@ -5,8 +5,11 @@
     "description": "Adds Alles services to your browser",
     "homepage_url": "https://tab.alles.cx",
     "icons": {
-        "48": "logo.svg",
-        "96": "logo.svg"
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png"
     },
     "chrome_settings_overrides": {
         "search_provider": {
@@ -22,7 +25,13 @@
         "newtab": "homepage/index.html"
     },
     "browser_action": {
-        "default_icon": "logo.svg",
+        "default_icon": {
+            "16": "icons/16.png",
+            "32": "icons/32.png",
+            "48": "icons/48.png",
+            "96": "icons/96.png",
+            "128": "icons/128.png"
+        },
         "default_title": "Alles Tab"
     },
     "content_scripts": [

@@ -1,0 +1,41 @@
+{
+    "manifest_version": 2,
+    "name": "Alles Tab",
+    "version": "0.3",
+    "description": "Adds Alles services to your browser",
+    "homepage_url": "https://tab.alles.cx",
+    "icons": {
+        "16": "icons/16.png",
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png"
+    },
+    "chrome_url_overrides": {
+        "newtab": "homepage/index.html"
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/16.png",
+            "32": "icons/32.png",
+            "48": "icons/48.png",
+            "96": "icons/96.png",
+            "128": "icons/128.png"
+        },
+        "default_title": "Alles Tab"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://*.alles.cx/*"
+            ],
+            "js": [
+                "browser-polyfill.js",
+                "sites.js"
+            ]
+        }
+    ],
+    "permissions": [
+        "storage"
+    ]
+}
