@@ -11,6 +11,17 @@
         "96": "icons/96.png",
         "128": "icons/128.png"
     },
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "name": "Alles",
+            "search_url": "https://search.alles.cx/?q={searchTerms}",
+            "favicon_url": "https://search.alles.cx/_/static/logo-16.png",
+            "keyword": "alles",
+            "is_default": true,
+            "encoding": "UTF-8"
+        },
+        "homepage": "https://search.alles.cx"
+    },
     "chrome_url_overrides": {
         "newtab": "homepage/index.html"
     },
