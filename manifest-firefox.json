@@ -17,7 +17,8 @@
             "search_url": "https://search.alles.cx/?q={searchTerms}",
             "favicon_url": "https://search.alles.cx/_/static/logo-16.png",
             "keyword": "alles",
-            "is_default": true
+            "is_default": true,
+            "encoding": "UTF-8"
         },
         "homepage": "homepage/index.html"
     },
