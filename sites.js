@@ -18,3 +18,7 @@ if (window.location.origin === "https://tab.alles.cx") {
     const token = document.querySelector("input[name=protium-token]")?.value;
     if (token) browser.storage.local.set({ token });
 }
+
+// Homepage Redirect
+if (window.location.href === "https://tab.alles.cx/home")
+    window.location.href = browser.runtime.getURL("homepage/index.html");
